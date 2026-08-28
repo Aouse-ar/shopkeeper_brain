@@ -1,0 +1,31 @@
+# ===== 敏感文件（绝对不能上传） =====
+.env
+.env.*
+*.pem
+*.key
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== IDE =====
+# 注意：.idea 文件夹是否上传见下方说明，默认排除
+.idea/
+
+# ===== 临时/缓存数据 =====
+knowledge/temp_data/
+temp-files/
+*.log
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
